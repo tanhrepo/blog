@@ -6,3 +6,6 @@
 
 ## js
 1. [for循环下面的setTimeout运行机制](https://github.com/tanhrepo/blog/issues/1)
+
+## 读书笔记
+1. [你不知道的JavaScript[上]](https://github.com/tanhrepo/blog/issues/2)
