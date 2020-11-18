@@ -2,13 +2,14 @@
 前端学习博客
 
 ## 最近更新
-[栈](https://github.com/tanhrepo/blog/issues/8)
+[类数组转化为数组](https://github.com/tanhrepo/blog/issues/9)
 
 ## js
 1. [for循环下面的setTimeout运行机制](https://github.com/tanhrepo/blog/issues/1)
 2. [箭头函数](https://github.com/tanhrepo/blog/issues/4)
 3. [数组扁平化](https://github.com/tanhrepo/blog/issues/5)
 4. [数组去重](https://github.com/tanhrepo/blog/issues/6)
+5. [类数组转化为数组](https://github.com/tanhrepo/blog/issues/9)
 
 ## 数据结构和算法
 1. [数组](https://github.com/tanhrepo/blog/issues/7)
