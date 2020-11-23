@@ -2,7 +2,7 @@
 前端学习博客
 
 ## 最近更新
-[Js里面的数组操作](https://github.com/tanhrepo/blog/issues/10)
+[MVVM](https://github.com/tanhrepo/blog/issues/11)
 
 ## js
 1. [for循环下面的setTimeout运行机制](https://github.com/tanhrepo/blog/issues/1)
@@ -11,6 +11,10 @@
 4. [数组去重](https://github.com/tanhrepo/blog/issues/6)
 5. [类数组转化为数组](https://github.com/tanhrepo/blog/issues/9)
 6. [Js里面的数组操作](https://github.com/tanhrepo/blog/issues/10)
+
+## Vue
+1.[MVVM](https://github.com/tanhrepo/blog/issues/11)
+ 
 
 ## 数据结构和算法
 1. [数组](https://github.com/tanhrepo/blog/issues/7)
