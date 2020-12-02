@@ -14,7 +14,7 @@
 
 ## Vue
 1.[MVVM](https://github.com/tanhrepo/blog/issues/11)
- 
+2.[Vue生命周期](https://github.com/tanhrepo/blog/issues/12)
 
 ## 数据结构和算法
 1. [数组](https://github.com/tanhrepo/blog/issues/7)
