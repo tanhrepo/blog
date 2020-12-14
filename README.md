@@ -5,16 +5,17 @@
 [MVVM](https://github.com/tanhrepo/blog/issues/11)
 
 ## js
-1. [for循环下面的setTimeout运行机制](https://github.com/tanhrepo/blog/issues/1)
-2. [箭头函数](https://github.com/tanhrepo/blog/issues/4)
-3. [数组扁平化](https://github.com/tanhrepo/blog/issues/5)
-4. [数组去重](https://github.com/tanhrepo/blog/issues/6)
-5. [类数组转化为数组](https://github.com/tanhrepo/blog/issues/9)
-6. [Js里面的数组操作](https://github.com/tanhrepo/blog/issues/10)
+1. [Js、浏览器历史](https://github.com/tanhrepo/blog/issues/14)
+2. [for循环下面的setTimeout运行机制](https://github.com/tanhrepo/blog/issues/1)
+3. [箭头函数](https://github.com/tanhrepo/blog/issues/4)
+4. [数组扁平化](https://github.com/tanhrepo/blog/issues/5)
+5. [数组去重](https://github.com/tanhrepo/blog/issues/6)
+6. [类数组转化为数组](https://github.com/tanhrepo/blog/issues/9)
+7. [Js里面的数组操作](https://github.com/tanhrepo/blog/issues/10) 
 
 ## Vue
 1.[MVVM](https://github.com/tanhrepo/blog/issues/11)  
-2.[Vue生命周期](https://github.com/tanhrepo/blog/issues/12)
+2.[Vue生命周期](https://github.com/tanhrepo/blog/issues/12)  
 3.[axios](https://github.com/tanhrepo/blog/issues/13)
 
 ## 数据结构和算法
