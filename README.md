@@ -3,6 +3,7 @@
 
 ## 最近更新
 [MVVM](https://github.com/tanhrepo/blog/issues/11)
+[报错信息]()
 
 ## js
 1. [Js、浏览器历史](https://github.com/tanhrepo/blog/issues/14)
