@@ -6,9 +6,7 @@ init 3(命令) 5(图形) 0(关机) 6(重启)
 
 
 
-```
-id-u
-```
+> id-u
 
 为0的时候是管理员，其他值都是普通用户
 
@@ -18,19 +16,15 @@ id-u
 [root@tanh113-313 ~]# 
 ~~~
 
-```
-tty
-```
+> tty
 
 查看当前的终端设备
 
-<img src="linux基础.assets/image-20210113172256761.png" alt="image-20210113172256761" style="zoom:50%;" />![image-20210113172323495](linux基础.assets/image-20210113172323495.png)
+<img src="linux基础.assets/image-20210113172256761.png" alt="image-20210113172256761" style="zoom:50%;" />![image-20210113172323495](Linux基础.assets/image-20210113172323495-1610533531780.png)
 
-<img src="linux基础.assets/image-20210113173103962.png" alt="image-20210113173103962" style="zoom:50%;" />
+<img src="Linux基础.assets/image-20210113201640769.png" alt="image-20210113201640769" style="zoom:50%;" />
 
-```
-free -h //查看当前的内存情况
-```
+> free -h //查看当前的内存情况
 
 ```
 [root@tanh113-313 ~]# free -h
@@ -41,12 +35,12 @@ Swap:            0B          0B          0B
 
 ```
 
-```
-who am i //分开写，可以直接查看当前用户和终端
-```
+> who am i //分开写，可以直接查看当前用户和终端
 
 ~~~
 [root@tanh113-313 ~]# who am i
 root     pts/0        2021-01-13 17:14 (183.230.102.101)
 ~~~
+
+
 
