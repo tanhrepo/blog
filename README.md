@@ -4,7 +4,10 @@
 ## 最近更新
 [Linux指令入门-文件与权限](https://github.com/tanhrepo/blog/blob/master/note/Linux%E6%8C%87%E4%BB%A4%E5%85%A5%E9%97%A8-%E6%96%87%E4%BB%B6%E4%B8%8E%E6%9D%83%E9%99%90.md)
 
+[linux](.\note\类数组转化为数组.md)
+
 ## js
+
 1. [Js、浏览器历史](https://github.com/tanhrepo/blog/issues/14)
 2. [for循环下面的setTimeout运行机制](https://github.com/tanhrepo/blog/issues/1)
 3. [箭头函数](https://github.com/tanhrepo/blog/issues/4)
