@@ -20,7 +20,7 @@ init 3(命令) 5(图形) 0(关机) 6(重启)
 
 查看当前的终端设备
 
-<img src="linux基础.assets/image-20210113172256761.png" alt="image-20210113172256761" style="zoom:50%;" />![image-20210113172323495](Linux基础.assets/image-20210113172323495-1610533531780.png)
+<img src="linux基础.assets/image-20210113172256761.png" alt="image-20210113172256761" style="zoom:50%;" />
 
 <img src="Linux基础.assets/image-20210113201640769.png" alt="image-20210113201640769" style="zoom:50%;" />
 
