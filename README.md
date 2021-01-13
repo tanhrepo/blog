@@ -2,8 +2,7 @@
 前端学习博客
 
 ## 最近更新
-[MVVM](https://github.com/tanhrepo/blog/issues/11)
-[报错信息](https://github.com/tanhrepo/blog/blob/master/book/%E6%8A%A5%E9%94%99%E4%BF%A1%E6%81%AF.md)
+[Linux指令入门-文件与权限](https://github.com/tanhrepo/blog/blob/master/note/Linux%E6%8C%87%E4%BB%A4%E5%85%A5%E9%97%A8-%E6%96%87%E4%BB%B6%E4%B8%8E%E6%9D%83%E9%99%90.md)
 
 ## js
 1. [Js、浏览器历史](https://github.com/tanhrepo/blog/issues/14)
@@ -23,6 +22,7 @@
 1. [数组](https://github.com/tanhrepo/blog/issues/7)
 2. [栈](https://github.com/tanhrepo/blog/issues/8)
 
-
+## linux
+1. [Linux指令入门-文件与权限](https://github.com/tanhrepo/blog/blob/master/note/Linux%E6%8C%87%E4%BB%A4%E5%85%A5%E9%97%A8-%E6%96%87%E4%BB%B6%E4%B8%8E%E6%9D%83%E9%99%90.md)
 ## 读书笔记
 1. [你不知道的JavaScript[上]](https://github.com/tanhrepo/blog/blob/master/book/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JavaScript%E3%80%90%E4%B8%8A%E3%80%91.md)
