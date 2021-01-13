@@ -423,7 +423,7 @@ ll
 > -rw-r--r-- 1 `admin admin` 0 Jan 13 15:03 text.txt
 > [root@iZuf683rdgclg08ycxvwx5Z ~]# 
 
-## chgrp
+### chgrp
 
 chgrp命令用于修改文件的属组。
 
@@ -435,3 +435,9 @@ chgrp命令用于修改文件的属组。
 chgrp root test.txt
 ll
 ```
+
+> [root@iZuf683rdgclg08ycxvwx5Z ~]# chgrp root text.txt 
+> [root@iZuf683rdgclg08ycxvwx5Z ~]# ll
+> total 0
+> -rw-r--r-- 1 `admin root `0 Jan 13 15:03 text.txt
+> [root@iZuf683rdgclg08ycxvwx5Z ~]# 
