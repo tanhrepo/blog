@@ -14,9 +14,9 @@
 7. [Js里面的数组操作](https://github.com/tanhrepo/blog/issues/10) 
 
 ## Vue
-1.[MVVM](https://github.com/tanhrepo/blog/issues/11)  
-2.[Vue生命周期](https://github.com/tanhrepo/blog/issues/12)  
-3.[axios](https://github.com/tanhrepo/blog/issues/13)
+1. [MVVM](https://github.com/tanhrepo/blog/issues/11)  
+2. [Vue生命周期](https://github.com/tanhrepo/blog/issues/12)  
+3. [axios](https://github.com/tanhrepo/blog/issues/13)
 
 ## 数据结构和算法
 1. [数组](https://github.com/tanhrepo/blog/issues/7)
