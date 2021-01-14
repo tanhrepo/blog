@@ -24,3 +24,20 @@ nginx -V
 2>&1 nginx -V | xargs -n1 | grep lua
 ~~~
 
+启动 Nginx：
+
+`sudo nginx`或 `sudo brew services start nginx`
+
+停止 Nginx：
+
+`sudo nginx -s stop`或 `sudo brew services stop nginx`
+
+热重启 Nginx：
+
+`sudo nginx -s reload`
+
+强制停止 Nginx：
+
+`sudo pkill -9 nginx`
+
+
