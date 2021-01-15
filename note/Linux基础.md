@@ -42,5 +42,18 @@ Swap:            0B          0B          0B
 root     pts/0        2021-01-13 17:14 (183.230.102.101)
 ~~~
 
+> help//调出内部命令菜单
 
+> type //显示当前目录是外部的还是内部的
 
+~~~
+[root@tanh113-313 ~]# type pwd
+pwd is a shell builtin
+[root@tanh113-313 ~]# type who
+who is /usr/bin/who
+[root@tanh113-313 ~]#
+~~~
+
+内部命令显示的是builtin，外部命令是一串路径
+
+内部命令在内存里，外部命令在磁盘上
