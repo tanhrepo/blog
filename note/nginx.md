@@ -1,5 +1,13 @@
 # nginx
 
+使用nginx操作命令的前提条件：必须进入nginx的目录
+
+~~~
+/usr/local/nginx/sbin
+~~~
+
+
+
 ## 常用命令
 
 ~~~
