@@ -50,3 +50,26 @@ nginx -V
 
 
 
+***tasklist /fi “imagename eq nginx.exe”*** 
+
+
+
+1. 通过ps命令查询正在运行程序的进程号
+
+```bash
+ps -ef|grep nginx
+
+查询结果：
+root     10995 10989  0 1月12 ?       00:09:27 hexo                                                                            
+root     15202 15180  0 13:49 pts/0    00:00:00 grep --color=auto hexo 
+12345
+```
+
+1. 通过 ll /proc/{进程号}/cwd查看运行目录
+
+```bash
+ll /proc/10995/cwd
+
+查询结果：
+lrwxrwxrwx 1 root root 0 1月  12 00:05 /proc/10995/cwd -> /home/blog
+```
