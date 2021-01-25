@@ -26,5 +26,7 @@
 
 ## linux
 1. [Linux指令入门-文件与权限](https://github.com/tanhrepo/blog/blob/master/note/Linux%E6%8C%87%E4%BB%A4%E5%85%A5%E9%97%A8-%E6%96%87%E4%BB%B6%E4%B8%8E%E6%9D%83%E9%99%90.md)
+2. [Linux命令](https://github.com/tanhrepo/blog/blob/master/note/Linux%E5%9F%BA%E7%A1%80.md)
+
 ## 读书笔记
 1. [你不知道的JavaScript[上]](https://github.com/tanhrepo/blog/blob/master/book/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JavaScript%E3%80%90%E4%B8%8A%E3%80%91.md)
