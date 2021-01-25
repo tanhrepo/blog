@@ -65,7 +65,7 @@ root     15202 15180  0 13:49 pts/0    00:00:00 grep --color=auto hexo
 12345
 ```
 
-1. 通过 ll /proc/{进程号}/cwd查看运行目录
+2. 通过 ll /proc/{进程号}/cwd查看运行目录
 
 ```bash
 ll /proc/10995/cwd
