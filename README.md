@@ -3,7 +3,7 @@
 
 ## 最近更新
 > [nginx基础命令](https://github.com/tanhrepo/blog/blob/master/note/nginx.md)  
-> [Linux指令入门-文件与权限](https://github.com/tanhrepo/blog/blob/master/note/Linux%E6%8C%87%E4%BB%A4%E5%85%A5%E9%97%A8-%E6%96%87%E4%BB%B6%E4%B8%8E%E6%9D%83%E9%99%90.md)
+
 
 
 ## js
