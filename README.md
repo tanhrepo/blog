@@ -2,7 +2,7 @@
 前端学习博客
 
 ## 最近更新
-> [nginx基础命令](https://github.com/tanhrepo/blog/blob/master/note/nginx.md)
+> 
 
 
 
