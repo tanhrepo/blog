@@ -1,7 +1,7 @@
 /*
  * @Author: tanhong
  * @Date: 2021-05-26 10:32:56
- * @LastEditTime: 2021-05-26 10:48:42
+ * @LastEditTime: 2021-05-26 11:38:26
  * @LastEditors: tanhong
  * @FilePath: \blog\project\TypeScriptDemo\TSDemo10.ts
  */
@@ -20,7 +20,7 @@ class fang extends Lady {
     return 'Titanic';
   }
   say() {
-    // super关键字调用父级的方法
+    // 使用 extends 关键字实现继承，子类中使用 super 关键字来调用父类的构造函数和方法。
     return super.say() + ', my honey';
   }
 }
