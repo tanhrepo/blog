@@ -13,7 +13,7 @@ indent_style = space
 # 在文件结尾插入新行
 insert_final_newline = true
 # 一行的最大宽度
-max_line_length = 80
+max_line_length = 120
 # tab的宽度
 tab_width = 2
 
