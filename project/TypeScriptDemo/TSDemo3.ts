@@ -6,7 +6,7 @@
  * @FilePath: \blog\project\TypeScriptDemo\TSDemo3.ts
  */
 //对象类型
-const girl: {
+const girl1: {
   name: string;
   age: number;
 } = {

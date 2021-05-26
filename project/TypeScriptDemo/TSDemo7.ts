@@ -13,7 +13,7 @@ const boy1: (string | number)[] = ['jack', 'student', 18];
 const boy2: (string | number)[] = ['jack', 18, 'student'];
 
 // 为元组的时候
-const girl1: [string, string, number] = ['marry', 'student', 18];
+const girl2: [string, string, number] = ['marry', 'student', 18];
 // const girl2: [string, string, number] = ['jack', 18, 'student']; // 顺序变化会有类型错误
 
 const group: [string, string, number][] = [
