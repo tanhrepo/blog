@@ -1,7 +1,7 @@
 /*
  * @Author: tanhong
  * @Date: 2021-05-19 14:37:24
- * @LastEditTime: 2021-05-19 15:18:49
+ * @LastEditTime: 2021-05-26 15:05:23
  * @LastEditors: tanhong
  * @FilePath: \blog\project\TypeScriptDemo\TSDemo4.ts
  */
@@ -13,13 +13,13 @@
 // const two = 2;
 // const three = one + two
 
-function getTotal(one: number, two: number): number {
-  return one + two;
-}
-const total = getTotal(1, 2);
-// console.log(total);
+// function getTotal(one: number, two: number): number {
+//   return one + two;
+// }
+// const total = getTotal(1, 2);
+// // console.log(total);
 
-const boy = {
-  name: 'Michael',
-  age: 18,
-};
+// const boy = {
+//   name: 'Michael',
+//   age: 18,
+// };

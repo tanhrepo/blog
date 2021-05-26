@@ -8,15 +8,15 @@
 
 // 接口
 // interface
-const screenResume = (name: string, age: number, perfessional: number) => {
-  age < 55 && perfessional >= 100 && console.log(name + '进入了面试环节');
-  age >= 55 || (perfessional < 100 && console.log(name + '被淘汰'));
-};
+// const screenResume = (name: string, age: number, perfessional: number) => {
+//   age < 55 && perfessional >= 100 && console.log(name + '进入了面试环节');
+//   age >= 55 || (perfessional < 100 && console.log(name + '被淘汰'));
+// };
 
-const getResume = (name: string, age: number, perfessional: number) => {
-  console.log(name + '的年龄是' + age);
-  console.log(name + '的能力值' + perfessional);
-};
+// const getResume = (name: string, age: number, perfessional: number) => {
+//   console.log(name + '的年龄是' + age);
+//   console.log(name + '的能力值' + perfessional);
+// };
 
 // screenResume('jack', 22, 200);
 // getResume('jack', 22, 200);

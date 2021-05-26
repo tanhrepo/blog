@@ -5,20 +5,20 @@
  * @LastEditors: tanhong
  * @FilePath: \blog\project\TypeScriptDemo\TSDemo3.ts
  */
-//对象类型
-const girl1: {
-  name: string;
-  age: number;
-} = {
-  name: 'jie',
-  age: 12,
-};
+// //对象类型
+// const girl1: {
+//   name: string;
+//   age: number;
+// } = {
+//   name: 'jie',
+//   age: 12,
+// };
 
-const girls: string[] = ['1', '3', '3'];
+// const girls: string[] = ['1', '3', '3'];
 
-class Person {}
-const jack: Person = new Person();
+// class Person {}
+// const jack: Person = new Person();
 
-const xinJack: () => string = () => {
-  return 'return string';
-};
+// const xinJack: () => string = () => {
+//   return 'return string';
+// };

@@ -1,7 +1,7 @@
 /*
  * @Author: tanhong
  * @Date: 2021-05-26 14:14:43
- * @LastEditTime: 2021-05-26 14:40:43
+ * @LastEditTime: 2021-05-26 16:13:03
  * @LastEditors: tanhong
  * @FilePath: \blog\project\TypeScriptDemo\TSDemo13.ts
  */
@@ -42,3 +42,15 @@ class BeautifulGirl {
   }
 }
 console.log(BeautifulGirl.sayHi()); // 直接通过类来调用：
+
+// 只读属性
+class Person {
+  public readonly _name: string;
+  constructor(public name: string) {
+    this._name = name;
+  }
+}
+
+const hong1 = new Person('jshong');
+// hong1._name = 'hong';// 无法分配到 "_name" ，因为它是只读属性。
+console.log(hong1._name);
