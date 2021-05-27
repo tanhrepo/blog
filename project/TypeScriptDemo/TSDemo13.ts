@@ -1,9 +1,9 @@
 /*
  * @Author: tanhong
  * @Date: 2021-05-26 14:14:43
- * @LastEditTime: 2021-05-26 16:13:03
- * @LastEditors: tanhong
- * @FilePath: \blog\project\TypeScriptDemo\TSDemo13.ts
+ * @LastEditTime: 2021-05-27 14:48:43
+
+
  */
 
 // 存取器
