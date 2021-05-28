@@ -1,7 +1,7 @@
 /*
  * @Author: tanhong
  * @Date: 2021-05-28 15:48:42
- * @LastEditTime: 2021-05-28 15:58:46
+ * @LastEditTime: 2021-05-28 16:48:58
  * @LastEditors: tanhong
  * @FilePath: \blog\project\TypeScriptDemo\TSDemo14.ts
  */
@@ -9,7 +9,7 @@
 // 抽象类
 
 abstract class Girl3 {
-  abstract skill();
+  abstract skill(): any;
 }
 
 class Waiter extends Girl3 {
