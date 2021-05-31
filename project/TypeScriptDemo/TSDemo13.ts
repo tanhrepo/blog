@@ -1,7 +1,7 @@
 /*
  * @Author: tanhong
  * @Date: 2021-05-26 14:14:43
- * @LastEditTime: 2021-05-28 15:46:15
+ * @LastEditTime: 2021-05-31 16:41:54
  * @LastEditors: tanhong
  * @FilePath: \blog\project\TypeScriptDemo\TSDemo13.ts
  */
@@ -42,4 +42,4 @@ class BeautifulGirl {
   }
 }
 console.log(BeautifulGirl.sayHi()); // 直接通过类来调用：
-// mutrueu
+// mutrreacme
