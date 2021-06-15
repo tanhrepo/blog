@@ -1,9 +1,9 @@
 /*
  * @Author: tanhong
  * @Date: 2021-05-26 14:14:43
- * @LastEditTime: 2021-05-31 17:16:32
+ * @LastEditTime: 2021-06-15 10:29:49
  * @LastEditors: tanhong
- * @FilePath: \blog\project\TypeScriptDemo\TSDemo13.ts
+ * @FilePath: \project\TypeScriptDemo\TSDemo13.ts
  */
 
 // 存取器
@@ -42,4 +42,4 @@ class BeautifulGirl {
   }
 }
 console.log(BeautifulGirl.sayHi()); // 直接通过类来调用：
-// mutrr
+// mutrlad
