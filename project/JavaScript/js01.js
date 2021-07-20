@@ -1,12 +1,12 @@
 /*
  * @Author: tanhong
  * @Date: 2021-07-16 20:52:21
- * @LastEditTime: 2021-07-16 20:54:01
+ * @LastEditTime: 2021-07-20 11:17:37
  * @LastEditors: tanhong
  * @FilePath: \blog\project\JavaScript\js01.js
  */
 
-// 毫秒转换为时分秒
+// 毫秒数转换为时分秒
 function MillisecondToDate(msd) {
   var time = parseFloat(msd) / 1000;
   if (null != time && '' != time) {
