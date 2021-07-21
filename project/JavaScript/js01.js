@@ -1,7 +1,8 @@
+/*    G级任务对应的等级是1到10级，在韩非到达十级之前，G级普通任务提供的经验还是很可观的，只不过这些任务除了经验和一些消耗类道具外，就再也没有其他的奖励了。*/
 /*
  * @Author: tanhong
  * @Date: 2021-07-16 20:52:21
- * @LastEditTime: 2021-07-20 11:17:37
+ * @LastEditTime: 2021-07-21 09:59:38
  * @LastEditors: tanhong
  * @FilePath: \blog\project\JavaScript\js01.js
  */
