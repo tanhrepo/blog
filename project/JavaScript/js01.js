@@ -2,7 +2,7 @@
 /*
  * @Author: tanhong
  * @Date: 2021-07-16 20:52:21
- * @LastEditTime: 2021-07-21 09:59:38
+ * @LastEditTime: 2021-08-09 10:14:37
  * @LastEditors: tanhong
  * @FilePath: \blog\project\JavaScript\js01.js
  */
@@ -32,6 +32,13 @@ function MillisecondToDate(msd) {
   return time;
 }
 
+// 时间单位换算
+export function rTime(date, pattern) {
+  if (!date) {
+    return null;
+  }
+  return parseTime(new Date(date).getTime(), pattern);
+}
 // 日期格式化
 
 export function parseTime(time, pattern) {
