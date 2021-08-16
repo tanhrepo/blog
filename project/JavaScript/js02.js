@@ -1,8 +1,7 @@
-//     在一开始，人类只是强行捕获弱小的超凡生物，把它们作为奴仆，御使它们工作、战斗，面对强大的超凡生物，人类还是无法反抗。
 /*
  * @Author: tanhong
  * @Date: 2021-08-12 13:31:35
- * @LastEditTime: 2021-08-13 14:11:35
+ * @LastEditTime: 2021-08-16 17:31:15
  * @LastEditors: tanhong
  * @FilePath: \blog\project\JavaScript\js02.js
  */
