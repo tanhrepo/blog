@@ -1,7 +1,7 @@
 <!--
  * @Author: tanhong
  * @Date: 2021-08-20 09:53:38
- * @LastEditTime: 2021-08-20 09:57:37
+ * @LastEditTime: 2021-08-23 16:03:39
  * @LastEditors: tanhong
  * @FilePath: \blog\project\JavaScript\ECMAScript\es1.html
 -->
@@ -12,6 +12,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>let</title>
+    <style>
+      .top {
+        position: relative;
+        border-top: 1px solid rebeccapurple;
+      }
+      .top::after {
+        content: ' ';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+        background: linear-gradient(0deg, #f00 50%, transparent 50%);
+      }
+    </style>
   </head>
   <body>
     <script>
@@ -20,8 +35,10 @@
       let b, c, d;
 
       // 特性1：变量不能重复声明
-      let star = 'qingfeng';
-      let star = 'mingzhu';
+      // let star = 'qingfeng';
+      // let star = 'mingzhu';
+      // Uncaught SyntaxError: Identifier 'star' has already been declared
     </script>
+    <div class="top">1234</div>
   </body>
 </html>
