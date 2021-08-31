@@ -1,9 +1,9 @@
 /*
  * @Author: tanhong
  * @Date: 2021-07-16 20:52:21
- * @LastEditTime: 2021-08-09 15:27:28
+ * @LastEditTime: 2021-08-31 11:14:20
  * @LastEditors: tanhong
- * @FilePath: \blog\project\JavaScript\js01.js
+ * @FilePath: \blog\project\JavaScript\JS\js01.js
  */
 
 // 毫秒数转换为时分秒
