@@ -1,9 +1,10 @@
+//     【触摸‘属性’按钮可查询自身属性】
 /*
  * @Author: tanhong
  * @Date: 2021-08-12 13:31:35
- * @LastEditTime: 2021-08-18 15:35:33
+ * @LastEditTime: 2021-09-09 15:42:05
  * @LastEditors: tanhong
- * @FilePath: \blog\project\JavaScript\js02.js
+ * @FilePath: \blog\project\JavaScript\JS\js02.js
  */
 (function (doc, win) {
   var docEl = doc.documentElement;
