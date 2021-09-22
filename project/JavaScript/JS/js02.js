@@ -1,8 +1,7 @@
-//     【触摸‘属性’按钮可查询自身属性】
 /*
  * @Author: tanhong
  * @Date: 2021-08-12 13:31:35
- * @LastEditTime: 2021-09-09 15:42:05
+ * @LastEditTime: 2021-09-15 11:04:40
  * @LastEditors: tanhong
  * @FilePath: \blog\project\JavaScript\JS\js02.js
  */
