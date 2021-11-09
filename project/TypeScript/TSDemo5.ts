@@ -1,9 +1,9 @@
 /*
  * @Author: tanhong
  * @Date: 2021-05-19 15:19:49
- * @LastEditTime: 2021-05-19 15:41:34
+ * @LastEditTime: 2021-11-09 16:23:48
  * @LastEditors: tanhong
- * @FilePath: \blog\project\TypeScriptDemo\TSDemo5.ts
+ * @FilePath: \blog\project\TypeScript\TSDemo5.ts
  */
 
 // void 空的
@@ -30,3 +30,5 @@
 //   return one;
 // }
 // const one = getNum({ one: 1 });
+
+// test
