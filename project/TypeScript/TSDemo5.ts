@@ -1,7 +1,7 @@
 /*
  * @Author: tanhong
  * @Date: 2021-05-19 15:19:49
- * @LastEditTime: 2021-11-09 16:23:48
+ * @LastEditTime: 2021-11-09 16:40:54
  * @LastEditors: tanhong
  * @FilePath: \blog\project\TypeScript\TSDemo5.ts
  */
@@ -32,3 +32,4 @@
 // const one = getNum({ one: 1 });
 
 // test
+// jadsjdkshb
