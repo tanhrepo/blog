@@ -6,7 +6,7 @@
  * @FilePath: \blog\project\TypeScriptDemo\TSDemo6.ts
  */
 
-// 定义数组
+// 定义数组   // 用type或者class(类)来定义类型别名
 // const numArr: number[] = [1, 2, 3];
 // const stringArr: string[] = ['1', '3'];
 // const undefinedArr: undefined[] = [undefined, undefined];
@@ -55,3 +55,6 @@
 //   { name: 'peter', age: 28 },
 // ];
 // // 3 interface 接口
+
+
+// 用type或者class(类)来定义类型别名

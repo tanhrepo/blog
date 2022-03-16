@@ -19,7 +19,7 @@
 // 函数接收的参数是一个对象的时候，需要单独为对象里面的字段赋值
 // 此时可以自动识别add返回的数据类型,但是是可变的
 // 如果return one + two + '';此时返回的为字符串，所以add为字符串
-// 可以在函数外定义，让返回值固定为number
+// 可以在函数外定义，让返回值固定为number，定义函数的时候尽量严谨
 // function add(): number{}
 // function add({ one, two }: { one: number; two: number }): number {
 //   return one + two;
@@ -33,3 +33,10 @@
 
 // test
 // jadsjdkshb
+
+// function getNum({one,two}:{one:number,two:number}){
+//   return one + two
+// }
+
+// const aaa = getNum({one:3,two:4})
+// console.log(aaa)
