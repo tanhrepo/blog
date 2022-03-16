@@ -8,15 +8,15 @@
  */
 // 联合类型和类型保护
 
-interface Waiter1 {
-  anjiao: boolean;
-  say: () => {};
-}
+// interface Waiter1 {
+//   anjiao: boolean;
+//   say: () => {};
+// }
 
-interface Teacher1 {
-  anjiao: boolean;
-  skill: () => {};
-}
+// interface Teacher1 {
+//   anjiao: boolean;
+//   skill: () => {};
+// }
 
 // function judaeWho(animal: Waiter1 | Teacher1) {
 //  // 两种或两种以上叫做联合类型
@@ -26,4 +26,17 @@ interface Teacher1 {
 //   } else {
 //     (animal as Waiter1).say();
 //   }
+// }
+
+// interface xiaojiejie {
+//   name:string,
+//   age:number
+// }
+
+// const mingzhu : xiaojiejie = {
+//   name:'mingzhu',
+//   age:'24'
+// }
+
+// const xiaojiejie : string[] = {
 // }

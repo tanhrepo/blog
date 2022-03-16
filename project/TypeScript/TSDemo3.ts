@@ -16,9 +16,6 @@
 
 // const girls: string[] = ['1', '3', '3'];
 
-// class Person {}
-// const jack: Person = new Person();
 
-// const xinJack: () => string = () => {
-//   return 'return string';
-// };
+// class Person
+
