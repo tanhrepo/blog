@@ -36,8 +36,8 @@
 // console.log(ming2.sayMy());
 
 
-class Person {
-}
-const a : Person = new Person()
+// class Person {
+// }
+// const a : Person = new Person()
 
-console.log(a)
+// console.log(a)
