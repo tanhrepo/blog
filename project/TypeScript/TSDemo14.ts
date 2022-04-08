@@ -8,25 +8,25 @@
 
 // 抽象类
 
-abstract class Girl3 {
-  abstract skill(): any;
-}
+// abstract class Girl3 {
+//   abstract skill(): any;
+// }
 
-class Waiter extends Girl3 {
-  // 非抽象类“Waiter”不会实现继承自“Girl3”类的抽象成员“skill”。
-  skill() {
-    console.log('water');
-  }
-}
+// class Waiter extends Girl3 {
+//   // 非抽象类“Waiter”不会实现继承自“Girl3”类的抽象成员“skill”。
+//   skill() {
+//     console.log('water');
+//   }
+// }
 
-class BaseTeacher extends Girl3 {
-  skill() {
-    console.log('base');
-  }
-}
+// class BaseTeacher extends Girl3 {
+//   skill() {
+//     console.log('base');
+//   }
+// }
 
-class seniorTeacher extends Girl3 {
-  skill() {
-    console.log('high');
-  }
-}
+// class seniorTeacher extends Girl3 {
+//   skill() {
+//     console.log('high');
+//   }
+// }
