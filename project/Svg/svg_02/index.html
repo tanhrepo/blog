@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        background-color: #28505d;
+      }
+
+      .planePath {
+        stroke: #d9dada;
+        stroke-width: 0.1%;
+        stroke-width: 0.5%;
+        stroke-dasharray: 1% 2%;
+        stroke-linecap: round;
+        fill: none;
+      }
+
+      .fil1 {
+        fill: #d9dada;
+      }
+
+      .fil2 {
+        fill: #c5c6c6;
+      }
+
+      .fil4 {
+        fill: #9d9e9e;
+      }
+
+      .fil3 {
+        fill: #aeafb0;
+      }
+    </style>
+  </head>
+  <body>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      width="1142px"
+      height="534px"
+    >
+      <path
+        fill-rule="evenodd"
+        opacity="0.2"
+        fill="rgb(1, 111, 254)"
+        d="M579.0,91.999 L1138.999,91.999 L1138.999,531.0 L0.0,531.0 L0.0,0.999 C0.0,0.999 125.977,0.999 294.136,0.999 L295.999,1.999 L366.0,91.0 L579.0,91.0 L579.0,91.999 Z"
+      />
+      <path
+        fill-rule="evenodd"
+        fill="rgb(1, 111, 254)"
+        d="M1135.13,133.5 L1138.988,133.5 L1138.988,486.999 L1135.13,486.999 L1135.13,133.5 Z"
+      />
+      <path
+        fill-rule="evenodd"
+        fill="rgb(1, 111, 254)"
+        d="M0.12,39.6 L3.988,39.6 L3.988,486.999 L0.12,486.999 L0.12,39.6 Z"
+      />
+      <path
+        fill-rule="evenodd"
+        fill="rgb(1, 111, 254)"
+        d="M46.3,526.999 L1094.1,526.999 L1094.1,530.981 L46.3,530.981 L46.3,526.999 Z"
+      />
+      <path
+        fill-rule="evenodd"
+        fill="rgb(1, 111, 254)"
+        d="M1116.298,531.163 L1116.298,526.587 L1134.604,526.587 L1134.604,508.285 L1139.180,508.285 L1139.180,531.163 L1116.298,531.163 ZM1134.604,96.384 L1116.298,96.384 L1116.298,91.808 L1139.180,91.808 L1139.180,114.686 L1134.604,114.686 L1134.604,96.384 ZM0.179,508.285 L4.755,508.285 L4.755,526.587 L23.61,526.587 L23.61,531.163 L0.179,531.163 L0.179,508.285 ZM4.755,23.686 L0.179,23.686 L0.179,0.808 L23.61,0.808 L23.61,5.384 L4.755,5.384 L4.755,23.686 Z"
+      />
+      <path
+        fill-rule="evenodd"
+        stroke="rgb(1, 111, 254)"
+        stroke-width="4px"
+        stroke-linecap="butt"
+        stroke-linejoin="miter"
+        fill="none"
+        d="M46.999,1.999 L294.999,1.999 L294.999,1.999 L365.0,91.999 L365.0,91.999 L774.999,91.999 L774.999,91.999 L1089.0,91.999 "
+      />
+      <g id="plane">
+        <polygon
+          class="fil1"
+          points="-141,-10 199,0 -198,-72 -188,-61 -171,-57 -184,-57 "
+        />
+        <polygon class="fil2" points="199,0 -141,-10 -163,63 -123,9 " />
+        <polygon
+          class="fil3"
+          points="-95,39 -113,32 -123,9 -163,63 -105,53 -108,45 -87,48 -90,45 -103,41 -94,41 "
+        />
+        <path
+          class="fil4"
+          d="M-87 48l-21 -3 3 8 19 -4 -1 -1zm-26 -16l18 7 -2 -1 32 -7 -29 1 11 -4 -24 -1 -16 -18 10 23zm10 9l13 4 -4 -4 -9 0z"
+        />
+        <polygon
+          class="fil1"
+          points="-83,28 -94,32 -65,31 -97,38 -86,49 -67,70 199,0 -123,9 -107,27 "
+        />
+      </g>
+      <animateMotion xlink:href="#plane" dur="5s" repeatCount="indefinite" rotate="auto">
+        <mpath xlink:href="#planePath" />
+      </animateMotion> 
+    </svg>
+  </body>
+</html>
