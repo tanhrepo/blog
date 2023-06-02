@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS测试</title>
+  <style lang="less">
+    .main {
+      width: auto;
+      height: 782px;
+      max-height: 300px;
+      overflow-y: scroll;
+      opacity: 1;
+      font-size: 14px;
+      color: #333333;
+      border-radius: 2px;
+      background: #fff;
+      line-height: 20px;
+      width: fit-content;
+    }
+    .topBox{
+      height: 48px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .topBox-item{
+      height: 48px;
+      font-size: 14px;
+      line-height: 20px;
+      display: flex;
+      margin-right: 12px;
+
+    }
+    .topBox-item-title{
+      width: 57px;
+      height: 48px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .topBox-item-content{
+      margin-left: 12px;
+      height: 48px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .table-box {
+      height: 160px;
+      border-collapse: collapse;
+      border-spacing: 0;
+      border-radius: 2px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      margin:0  0 20px 74px;
+
+    }
+
+    .table-item {
+      height: 32px;
+      box-sizing: border-box;
+      border: solid #EBEBEB;
+      border-width: 0 1px 1px 1px;
+      display: flex;
+      align-items: center;
+    }
+    .table-item-li{
+      width: 50%;
+      box-sizing: border-box;
+      padding: 0 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div
+    style="width: 368px;padding: 20px;opacity: 1;font-size: 14px;color: #333333;border-radius: 2px;display: flex;flex-direction: column;padding: 20px;">
+    <div style="height: 20px;font-size: 14px;font-weight: bold;line-height: 30px;">重庆是</div>
+    <span style="display: inline-block;width: 100%;height: 2px;background: #F9F9FA;margin: 12px 0 16px"></span>
+    <div
+      style="height: 20px;width: 100%;font-size: 14px;font-weight: 400;line-height: 22px;color: #999999;opacity: 1;display: flex;align-items: center">
+      <span style="width: 57px;display: block;">项目总数</span><span
+        style="color: #F9F9FA;font-weight: bold;margin-left: 16px">234</span>
+    </div>
+    <div
+      style="height: 20px;width: 100%;font-size: 14px;font-weight: 400;line-height: 22px;color: #999999;opacity: 1;display: flex;align-items: center;margin-top: 8px">
+      <span style="width: 57px;display: block;">版本情况</span>
+      <div style="color: #333333;margin-left: 16px;flex: 1;display: flex;justify-content: space-between;">
+        <div>基础版 <span>434</span> 个</div>
+        <div>标准版 <span>34</span> 个</div>
+        <div>专业版 <span>34</span> 个</div>
+      </div>
+    </div>
+    <div
+      style="height: 20px;width: 100%;font-size: 14px;font-weight: 400;line-height: 22px;color: #999999;opacity: 1;display: flex;align-items: center;margin-top: 8px">
+      <span style="width: 57px;display: block;">告警情况</span>
+      <div
+        style="flex: 1;color: #333333;margin-left: 16px;display: flex;justify-content: space-between;align-items: center;">
+        <span>告警总数 45 条</span>
+        <span style="display: inline-block;width: 2px;height: 14px;background: #1C7DFF;"></span><span>未处理 45 条</span>
+      </div>
+    </div>
+    <div style="height: 20px;margin:7px 0 4px 74px;display: flex;">
+      <div style="width: 50%">紧急</div>
+      <div style="width: 50%;color: #EE5D50;">345</div>
+    </div>
+    <span style="display: inline-block;height: 2px;background: #F9F9FA;margin: 0 0 0 74px"></span>
+    <div style="height: 20px;margin:7px 0 4px 74px;display: flex;">
+      <div style="width: 50%">重要</div>
+      <div style="width: 50%;color: #FBA636;">23465</div>
+    </div>
+    <span style="display: inline-block;height: 2px;background: #F9F9FA;margin: 0 0 0 74px"></span>
+    <div style="height: 20px;margin:7px 0 4px 74px;display: flex;">
+      <div style="width: 50%">次要</div>
+      <div style="width: 50%;color: #1C7DFF;">2345</div>
+    </div>
+    <span style="display: inline-block;height: 2px;background: #F9F9FA;margin: 0 0 0 74px"></span>
+    <div style="height: 20px;margin:7px 0 4px 74px;display: flex;">
+      <div style="width: 50%">提示</div>
+      <div style="width: 50%;color: #98A5B5;">4567</div>
+    </div>
+    <span style="display: inline-block;height: 2px;background: #F9F9FA;margin: 0 0 0 74px"></span>
+  </div>
+
+  <div style="margin: 70px 0;padding: 20px;background-color: #aaa;">
+    <div class="main">
+      <div class="topBox">
+        <div class="topBox-item">
+          <div class="topBox-item-title"><span>版本ID</span><span>版本号</span></div>
+          <div class="topBox-item-content" style="margin-left: 16px;"><span>1234</span><span>基础版sdfg324623456hdfshsdf</span></div>
+        </div>
+        <div class="topBox-item">
+          <div class="topBox-item-title"><span>项目名称</span><span>项目阶段</span></div>
+          <div class="topBox-item-content"><span>1234</span><span>售前</span></div>
+        </div>
+        <div class="topBox-item" style="margin: 0;">
+          <div class="topBox-item-title"><span>版本型号</span><span>项目状态</span></div>
+          <div class="topBox-item-content"><span>1.2</span><span>启用</span></div>
+        </div>
+      </div>
+      <div><span style="width: 57px;display: inline-block;margin-top: 8px;">平台地址</span><span style="margin-left: 16px;">重庆市渝北区</span></div>
+
+      <div style="display: flex;flex-direction: column;">
+        <div
+          style="height: 20px;width: 100%;font-size: 14px;font-weight: 400;line-height: 22px;color: #999999;opacity: 1;display: flex;align-items: center;margin-top: 8px">
+          <span style="width: 57px;display: block;">告警情况</span>
+          <div
+            style="flex: 1;color: #333333;margin-left: 16px;display: flex;justify-content: space-between;align-items: center;">
+            <span>告警总数 45 条</span>
+            <span style="display: inline-block;width: 2px;height: 14px;background: #1C7DFF;"></span><span>未处理 45
+              条</span>
+          </div>
+        </div>
+        <div style="height: 20px;margin:7px 0 4px 74px;display: flex;">
+          <div style="width: 50%">紧急</div>
+          <div style="width: 50%;color: #EE5D50;">345</div>
+        </div>
+        <span style="display: inline-block;height: 2px;background: #F9F9FA;margin: 0 0 0 74px"></span>
+        <div style="height: 20px;margin:7px 0 4px 74px;display: flex;">
+          <div style="width: 50%">重要</div>
+          <div style="width: 50%;color: #FBA636;">23465</div>
+        </div>
+        <span style="display: inline-block;height: 2px;background: #F9F9FA;margin: 0 0 0 74px"></span>
+        <div style="height: 20px;margin:7px 0 4px 74px;display: flex;">
+          <div style="width: 50%">次要</div>
+          <div style="width: 50%;color: #1C7DFF;">2345</div>
+        </div>
+        <span style="display: inline-block;height: 2px;background: #F9F9FA;margin: 0 0 0 74px"></span>
+        <div style="height: 20px;margin:7px 0 4px 74px;display: flex;">
+          <div style="width: 50%">提示</div>
+          <div style="width: 50%;color: #98A5B5;">4567</div>
+        </div>
+        <span style="display: inline-block;height: 2px;background: #F9F9FA;margin: 0 0 0 74px"></span>
+      </div>
+      <p>资源使用情况</p>
+      <div class="table-box">
+        <div class="table-item" style="border-width: 1px;">
+          <div class="table-item-li">资源名称</div>
+          <div class="table-item-li">资源使用</div>
+        </div>
+        <div class="table-item"></div>
+        <div class="table-item"></div>
+        <div class="table-item"></div>
+        <div class="table-item"></div>
+      </div>
+    </div>
+  </div>
+
+  <img id="imgDemo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAvBJREFUWEelV+1x2kAQ3RUTJMbchVQQUkGggkAFIRWEVJCkAtsVmFRgUoFNBSEVRFQQXEHEHQyCGWkzK5AshJBO8v3V3u3bt28/hFDh7IT4CAAjAugCYgcAesfrLhB5QOQi4tzWemb6LJYZEkBnL8QdIY4AgJ2aHA+JHptaf0cAr+hCIYCdlNcE8K2C46wvDwEmtlK3l0DkAuCod1L+SlFsEnWRjWsrNcxj4wzA/uqqFzYa7NyUbgCiGSCyPoqOZwXBsLnZuGmjEwDHyP9WcU5EP1taj7dCjBHxvgTE0laqn2YiAVCHdiL63dJ6EDvdttsDtCxmrzAdjlL92CABsJXyBgGujZNNtLC1HqSj8aX8Y6IbArhtKXXDviIAW8fpYrPJl03zvrKCYJDO506Ie0IcGwbg2Uq9Y/AHAEJMEfGz4WWgMBy21ut5bO9LyaV6Z3qf7WLtRAB8Kf+ZRk9EX1paT5O8m4kvD5vnKPUGd0KMCPHBCH0Y/nDWa442OrVKNuUIiT6hMf1EM0drbsfRqVOy2SA5DQxgjogfChnIKL5Oyea9z2WMBqWzov2+1/L9ZTrvAGCqeC61DiC+zwHhMgAqit4Kgn62fRrpJWXkC/EAh2l6dgoBZBVf1XFUYe32BCzr66W76Avh5tKTUXwd56XzgWhhJkIT7zVKNBKhcRkWgahZolEZVmpE+bV0MpSqlGjUiCKhSMl722sTpjM2LxlKK0epTq1hlHTDzFCqMtJPhtGRNm40xiy8cCitbKW6yTjmiOqgj5moOpTOFpL4oYs94TTxHu33/bg1Vx5KRAtH6/iH5rARJTkF6PhSugjwtkSQ0Yb7arNZVlnfCeDJUaqXu5Rm6ORtp1wPRHNATJbSwlYB8NQIglHhWp5mYicEP543wapXa84CGz9S+Gt2FCZvQOVs5MNaEcAk3oBzp2FZOCwyX4gJHsapKZAVhOHUXq951a//c5oFF7VtogEhspCelwyiBfGK/fx7/lgWWPz9P3winOXJXbcqAAAAAElFTkSuQmCC" width="16" height="16" alt="">
+</body>
+
+</html>
