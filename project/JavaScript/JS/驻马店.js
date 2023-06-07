@@ -1,78 +1,75 @@
-// 装瓶机输送线02
-let zhuangpingji = { userCustomID: '10', configID: 101000017, clientID: 21, attribute: {} };
-// 装瓶机原料输送线
-let zhuangpingjiyuanliao = { userCustomID: '4', configID: 101000017, clientID: 7, attribute: {} };
-// 新风及循环风系统-冷却室
-// BYJQ - SCSB - 001009 - SCWG - 0016;
-// 新风及循环风系统-接种室
-// BYJQ - SCSB - 001008 - SCWG - 0016;
-// 新风及循环风系统-隔热间
-// BYJQ - SCSB - 001010 - SCWG - 0016;
-// 接种后输送线
-
-// 制冷机组-弗德里希制冷剂
-
-//
-
-if (variables.isOpen == 1 || variables.isOpen == 2 || variables.isOpen == 3 || variables.isOpen == 4) {
-  return [
-    {
-      value: 'ncghngkoc7',
+const data = [
+  {
+    code: '0',
+    msg: 'success',
+    data: {
+      list: [
+        {
+          identifier: 'w_jarStatus',
+          time: '1675992637035',
+          value: '0',
+          data_type: 'int32',
+          access_mode: '只读',
+          expect_value: '',
+          name: '接种罐位状态',
+          description: '',
+        },
+        {
+          identifier: 'w_liquidRoomCoolDiff',
+          time: '1675992637033',
+          value: '0',
+          data_type: 'int32',
+          access_mode: '只读',
+          expect_value: '',
+          name: '液体菌种培养室制冷偏差值',
+          description: '',
+        },
+        {
+          identifier: 'w_liquidRoomStatus',
+          time: '1675992637045',
+          value: '0',
+          data_type: 'int32',
+          access_mode: '只读',
+          expect_value: '',
+          name: '液体菌种培养室状态',
+          description: '',
+        },
+        {
+          identifier: 'w_liquidRoomTemperatureSet',
+          time: '1675992637032',
+          value: '0',
+          data_type: 'int32',
+          access_mode: '只读',
+          expect_value: '',
+          name: '液体菌种培养室温度设定值',
+          description: '',
+        },
+      ],
     },
-  ];
+    ovDataSourceId: 'education',
+  },
+];FURl6e6di
+
+// 将name为‘液体菌种培养室温度设定值’的value取出来，先判断他是否存在
+// 如果存在，将value转换为number类型，再将value转换为string类型，再将value转换为number类型
+// 如果不存在，则返回0
+function getTemperatureSet() {
+  if (data && data[0] && data[0].data && data[0].data.list) {
+    const temperatureSet = data[0].data.list.find((item) => item.name === '液体菌种培养室温度设定值');
+    if (temperatureSet) {
+      return [
+        {
+          value: Number(String(Number(temperatureSet.value))),
+        },
+      ];
+    }
+  } else {
+    return [
+      {
+        value: 0,
+      },
+    ];
+  }
 }
 
-//
-
-if (variables.isOpen == 4) {
-  return [
-    {
-      value: 'BYJQ-SCSB-001017-SCWG-0023',
-    },
-  ];
-} else if (variables.isOpen == 3) {
-  return [
-    {
-      value: 'BYJQ-SCSB-001016-SCWG-0022',
-    },
-  ];
-} else if (variables.isOpen == 2) {
-  return [
-    {
-      value: 'BYJQ-SCSB-001015-SCWG-0021',
-    },
-  ];
-} else if (variables.isOpen == 1) {
-  return [
-    {
-      value: 'BYJQ-SCSB-001014-SCWG-0020',
-    },
-  ];
-}
-
-//
-if (variables.isOpen == 4) {
-  return [
-    {
-      value: 89,
-    },
-  ];
-} else if (variables.isOpen == 3) {
-  return [
-    {
-      value: 88,
-    },
-  ];
-} else if (variables.isOpen == 2) {
-  return [
-    {
-      value: 87,
-    },
-  ];
-} else if (variables.isOpen == 1) {
-  return [
-    {
-      value: 86,
-    },
-  ];
-}
+console.log(getTemperatureSet());
