@@ -15,6 +15,12 @@ const data = [
         mayRealWeight: 95,
         unitName: '箱',
       },
+      {
+        wareCode: '3a1b2b2b1b5e4b6e9b9b9b9b9b9b9b9b',
+        wareName: '鸡蛋',
+        mayRealWeight: 0,
+        unitName: '箱',
+      },
     ],
   },
 ];
